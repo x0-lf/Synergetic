@@ -153,12 +153,17 @@ npm install
 #### nodemon działa na Porcie: ``5000``
 #### vite(react) działa na Porcie: ``5173``
 
+
 ## FAQ
 1. Czy mogę użyć innego środowiska niż XAAMP np. MAMP??
-- tak, ale wymaga zmiany ustawień w plikach w folderze backend zmiany portu z ``3306`` na port twojego środowiska
 
-2. Nie mogę odpalić servera.
-- Sprawdź czy dla frontend'u jesteś w katalogu głównym, a dla serveru backendowego w folderze ``/backend``
+Tak, ale wymaga zmiany ustawień w plikach w folderze backend zmiany portu z ``3306`` na port twojego środowiska
+
+2. Nie mogę odpalić servera. 
+
+Sprawdź czy dla frontend'u jesteś w katalogu głównym, a dla serveru backendowego w folderze ``/backend``
 
 3. Strona się uruchamia, ale nie można utworzyć konta
-- Spawdź czy twoja baza danych jest skonfigurowana na brak hasła, lub zmień w plikach w folderze ``/backend/models`` i dodaj tam dla każdego odpowiednie hasło
+
+Spawdź czy twoja baza danych jest skonfigurowana na brak hasła, lub zmień w plikach w folderze ``/backend/models`` i dodaj tam dla każdego odpowiednie hasło
+
